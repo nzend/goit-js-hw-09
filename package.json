@@ -23,7 +23,9 @@
     "flatpickr": "^4.6.13",
     "lodash.throttle": "^4.1.1",
     "modern-normalize": "^1.1.0",
-    "simplelightbox": "^2.13.0"
+    "notiflix": "^3.2.6",
+    "simplelightbox": "^2.13.0",
+    "throttle": "^1.0.3"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
