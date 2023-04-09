@@ -7,7 +7,7 @@ const refs = {
 refs.form.addEventListener('submit', onFormSubmit);
 
 function onFormSubmit(evt) {
-  e.preventDefault();
+  evt.preventDefault();
 
   let mainDelay = evt.currentTarget.delay.valueAsNumber;
   const delayStep = evt.currentTarget.step.valueAsNumber;
