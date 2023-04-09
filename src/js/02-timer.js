@@ -22,6 +22,7 @@ class Timer {
     this.onTick = onTick;
   }
   start() {
+    refs.startButton.disabled = true;
     if (this.criticalTime <= 0) {
       return;
     }
